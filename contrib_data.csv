@@ -1,0 +1,23 @@
+repo,committer,commit_date,issue_id,commit_msg
+cpython,terryjreedy,2016-09-30,28315,Change '?' to '<module>' in some doc examples. Patch by Mariatta Wijaya.
+cpython,berkerpeksag,2016-10-04,28348,Fix typo in asyncio.Task() documentation. Patch by Mariatta Wijaya.
+cpython,gvanrossum,2016-10-13,24452,Make webbrowser support Chrome on Mac OS X.
+cpython,gvanrossum,2016-10-13,21443,Show how to change log level for asyncio.
+cpython,gvanrossum,2016-10-13,26869,Document unittest.TestCase.longMessage. (Mariatta)
+cpython,gvanrossum,2016-10-13,18789,Update XML vulnerability table to use Safe/Vulnerable instead of No/Yes.
+cpython,berkerperksag,2016-10-16,28455,Clarify example of overriding the convert_arg_line_to_args method. Patch by Mariatta Wijaya.
+cpython,methane,2016-10-21,18219,Optimize csv.DictWriter for large number of columns. Patch by Mariatta Wijaya.
+cpython,gvanrossum,2016-10-25,25002,Deprecate asyncore/asynchat. Patch by Mariatta.
+cpython,ned-deily,2016-10-31,28028,Update OS X installers to use SQLite 3.14.2. Patch by Mariatta Wijaya.
+cpython,ned-deily,2016-10-31,28248,Update macOS installer build to use OpenSSL 1.0.2j. Original patch by Mariatta Wijaya.
+cpython,gvanrossum,2016-11-03,26980,Improve docs for create_unix_connection(). By Mariatta.
+cpython,methane,2016-11-04,28088,Document Transport.set_protocol and get_protocol
+peps,gvanrossum,2016-10-23,121,Convert PEP 202 to reST
+devguide,ncoghlan,2016-09-20,37,Made "install dependencies" as Step number one
+pythondotorg,berkerpeksag,2016-09-27,1022,use bold font for h1, and regular for h2 element
+pythondotorg,berkerpeksag,2016-09-27,1020,Add styling to admonitions
+pythondotorg,berkerpeksag,2016-09-22,1015,Improve documentation for generating PEP pages
+pythondotorg,berkerpeksag,2016-09-16,1012,Remove lengthy text in job info box
+pythondotorg,berkerpeksag,2016-09-11,1005,Link the latest news in about page to blog.python.org
+pythondotorg,berkerpeksag,2016-09-11,1006,Redirect /blog/ to /blogs/
+pythondotorg,berkerpeksag,2016-08-13,990,add sqlparse<0.2
