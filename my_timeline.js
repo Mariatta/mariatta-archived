@@ -11,19 +11,13 @@ var options = {
         axis: "top",
         item: "top"
     },
-    min: new Date(2016, 7, 1)
+    min: new Date(2016, 6, 1)
 };
 
-var groupNames = ['cpython', 'pythondotorg', 'devguide', 'peps'];
-var groups = new vis.DataSet();
-for (var g = 0; g < groupNames.length; g++) {
-    groups.add({id: g, content: groupNames[g]});
-}
 var contribItems = new vis.DataSet(contrib_data); //stored in ./contrib_data.js
 
 var timeline = new vis.Timeline(container);
 timeline.setOptions(options);
-timeline.setGroups(groups);
 timeline.setItems(contribItems);
 /**
  * Move the timeline a given percentage to left or right
