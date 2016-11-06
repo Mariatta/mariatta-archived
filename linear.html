@@ -23,6 +23,7 @@
         <!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
         <script src="./assets/js/ie-emulation-modes-warning.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="./javascripts/moment.js"></script>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -37,25 +38,46 @@
 
         <!-- load handlebars for templating, and create a template -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
-        <script id="item-template" type="text/x-handlebars-template">
-            <div class="card-template">
+        <script type="text/javascript" src="./contrib_data.js"></script>
 
-                <div>
-                    <strong><span class="label label-{{repo_name}}">{{repo_name}}</span> <span class="label label-primary">
+        <script id="timeline-template" type="text/x-handlebars-template">
+            {{#each contrib_data}}
+            <li class="timeline-inverted">
+                <div class="timeline-badge {{repo_name}}"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
                         {{# cpython_type }}
-                        <a href="https://bugs.python.org/issue{{issue_id}}" target="_blank">#{{issue_id}}</a>
-                        {{else}}
-                        <a href="https://github.com/python/{{repo_name}}/pull/{{issue_id}}" target="_blank">#{{issue_id}}</a>
+                            <h5>
+                                <span class="label label-{{repo_name}}">
+                                    <a href="https://github.com/python/{{repo_name}}/">{{repo_name}}</a></span> <strong><span class="label label-primary">
+                                    <a href="https://bugs.python.org/issue{{issue_id}}" target="_blank">#{{issue_id}}</a>
+                                    </span>
+                                </strong> <span class="timeline-msg">{{commit_msg}}</span>
+
+                            </h5>
+                        {{ else }}
+                            <h5>
+                                <span class="label label-{{repo_name}}"><a href="https://github.com/python/{{repo_name}}/">{{repo_name}}</a></span> <strong><span class="label label-primary">
+                                    <a href="https://github.com/python/{{repo_name}}/pull/{{issue_id}}" target="_blank">#{{issue_id}}</a>
+                                </span> </strong> <span class="timeline-msg">{{commit_msg}}</span>
+                            </h5>
                         {{/ cpython_type }}
-                    </span></strong>
+                    </div>
+                    <div class="timeline-body">
+                        <div>committed by <strong><a href="https://github.com/{{committer}}" target="_blank">{{committer}}</a></strong> on {{start}}</div>
+                    </div>
                 </div>
-                <div>
-                    <div>{{commit_msg}}</div>
-                    <div><cite>committed by <strong><a href="https://github.com/{{committer}}" target="_blank">{{committer}}</a></strong> on {{start}}</cite></div>
-                </div>
+            </li>
+            {{/each}}
+        </script>
+        <script id="commit-summary" type="text/x-handlebars-template">
+            <div class="commit-summary">
+                <span class="label label-cpython">cpython <span class="badge">{{cpython}}</span></span>
+                <span class="label label-pythondotorg">pythondotorg <span class="badge">{{pythondotorg}}</span></span>
+                <span class="label label-devguide">devguide <span class="badge">{{devguide}}</span></span>
+                <span class="label label-peps">peps <span class="badge">{{peps}}</span></span>
             </div>
         </script>
-        <script type="text/javascript" src="./contrib_data.js"></script>
     </head>
 
     <body data-gr-c-s-loaded="true">
@@ -72,8 +94,8 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="./index.html">Timeline</a></li>
-                        <li><a href="./linear.html">Commit History</a></li>
+                        <li><a href="./index.html">Timeline</a></li>
+                        <li class="active"><a href="./linear.html">Commit History</a></li>
                         <li><a href="./about.html">About</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
@@ -82,32 +104,24 @@
 
         <div class="container">
             <div class="starter-template">
-                <div>
-                    <h1>Timeline of Mariatta's Contributions to Python</h1>
-                    <h5>Python, we can't just be friends anymore...</h5>
+                <div class="row" id="commit-summary-entry-point">
+
                 </div>
 
+                <ul class="timeline" id="timeline-entry-point">
 
-                <div id="visualization">
-                    <div class="menu">
-                        <button class="btn btn-primary btn-xs" type="button" id="zoomIn">
-                            <i class="fa fa-search-plus fa-lg fa-fw" aria-hidden="true"></i> Zoom In
-                        </button>
-                        <button class="btn btn-primary btn-xs" type="button" id="zoomOut">
-                            <i class="fa fa-search-minus fa-lg fa-fw" aria-hidden="true"></i> Zoom Out</button>
-                        <button class="btn btn-primary btn-xs" type="button" id="moveLeft">
-                            <i class="fa fa-angle-left fa-lg fa-fw" aria-hidden="true"></i> Move Left</button>
-                        <button class="btn btn-primary btn-xs" type="button" id="moveRight">
-                        Move Right <i class="fa fa-angle-right fa-lg fa-fw" aria-hidden="true"></i></button>
-                    </div>
-                </div>
+
+                </ul>
+
+                <div>This is the beginning of the journey.</div>
+
             </div>
         </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-    <script type="text/javascript" src="./my_timeline.js"></script>
+    <script type="text/javascript" src="./commit_history.js"></script>
 
 
     </body>
