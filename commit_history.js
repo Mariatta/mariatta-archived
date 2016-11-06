@@ -24,7 +24,6 @@ for (var i =0; i < contrib_data.length; i++) {
     result[data.repo_name] = result[data.repo_name] + 1;
 }
 var commitSummaryContext = result;
-console.log(commitSummaryContext);
 
 var commitSummaryHtml    = commitSummaryTemplate(commitSummaryContext);
 

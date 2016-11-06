@@ -38,7 +38,6 @@ function move (percentage) {
  * @param {Number} percentage   For example 0.1 (zoom out) or -0.1 (zoom in)
  */
 function zoom (percentage) {
-    console.log("zommed");
     var range = timeline.getWindow();
     var interval = range.end - range.start;
 
