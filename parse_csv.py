@@ -29,7 +29,7 @@ def parse_csv_to_json(filename):
                     'cpython_type': cpython_type
                 }
             )
-    with open('./contrib_data.js', 'w+') as file:
+    with open('./javascripts/contrib_data.js', 'w+') as file:
         file.write("var contrib_data = {};".format(json.dumps(data)))
 
 
