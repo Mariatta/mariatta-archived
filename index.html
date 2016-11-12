@@ -49,6 +49,11 @@
                 <div>
                     <div>{{commit_msg}}</div>
                     <div><cite>committed by <strong><a href="https://github.com/{{committer}}" target="_blank">{{committer}}</a></strong> on {{start}}</cite></div>
+                    {{# has_age }}
+                        <div><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> {{age}}</div>
+                    {{else}}
+                        <div><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> within hours</div>
+                    {{/ has_age }}
                 </div>
             </div>
         </script>
