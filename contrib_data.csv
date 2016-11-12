@@ -21,3 +21,4 @@ pythondotorg,berkerpeksag,2016-09-16,1012,Remove lengthy text in job info box
 pythondotorg,berkerpeksag,2016-09-11,1005,Link the latest news in about page to blog.python.org
 pythondotorg,berkerpeksag,2016-09-11,1006,Redirect /blog/ to /blogs/
 pythondotorg,berkerpeksag,2016-08-13,990,add sqlparse<0.2
+cpython,terryjreedy,2016-11-11,28615,Backport imaginary/complex number text from 3.x. Patch by Mariatta Wijaya.
