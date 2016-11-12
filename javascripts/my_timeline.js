@@ -11,7 +11,8 @@ var options = {
         axis: "top",
         item: "top"
     },
-    min: new Date(2016, 6, 1)
+    min: new Date(2016, 6, 1),
+    max: moment().add(1, 'month').toDate()
 };
 
 var contribItems = new vis.DataSet(contrib_data); //stored in ./contrib_data.js
