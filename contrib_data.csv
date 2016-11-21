@@ -22,3 +22,4 @@ pythondotorg,berkerpeksag,2016-09-11,2016-09-11,1005,Link the latest news in abo
 pythondotorg,berkerpeksag,2016-09-11,2016-09-11,1006,Redirect /blog/ to /blogs/
 pythondotorg,berkerpeksag,2016-08-13,2016-08-13,990,add sqlparse<0.2
 cpython,terryjreedy,2016-11-09,2016-11-11,28615,Backport imaginary/complex number text from 3.x. Patch by Mariatta Wijaya.
+cpython,gpshead,2016-11-18,2016-11-20,20572,The subprocess.Popen.wait method's undocumented endtime parameter now raises a DeprecationWarning. It was deprecated in 3.4. It was never documented prior to that.
