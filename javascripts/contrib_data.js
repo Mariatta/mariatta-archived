@@ -24,25 +24,13 @@ var contrib_data = [
         "start": "2016-10-04"
     },
     {
-        "age": "8 days",
-        "commit_msg": "Make webbrowser support Chrome on Mac OS X.",
-        "committer": "gvanrossum",
-        "cpython_type": true,
-        "group": 0,
-        "has_age": true,
-        "id": 2,
-        "issue_id": "24452",
-        "repo_name": "cpython",
-        "start": "2016-10-13"
-    },
-    {
         "age": "7 days",
         "commit_msg": "Show how to change log level for asyncio.",
         "committer": "gvanrossum",
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 3,
+        "id": 2,
         "issue_id": "21443",
         "repo_name": "cpython",
         "start": "2016-10-13"
@@ -54,7 +42,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 4,
+        "id": 3,
         "issue_id": "26869",
         "repo_name": "cpython",
         "start": "2016-10-13"
@@ -66,7 +54,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 5,
+        "id": 4,
         "issue_id": "18789",
         "repo_name": "cpython",
         "start": "2016-10-13"
@@ -76,7 +64,7 @@ var contrib_data = [
         "committer": "berkerperksag",
         "cpython_type": true,
         "group": 0,
-        "id": 6,
+        "id": 5,
         "issue_id": "28455",
         "repo_name": "cpython",
         "start": "2016-10-16"
@@ -88,7 +76,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 7,
+        "id": 6,
         "issue_id": "18219",
         "repo_name": "cpython",
         "start": "2016-10-21"
@@ -100,7 +88,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 8,
+        "id": 7,
         "issue_id": "25002",
         "repo_name": "cpython",
         "start": "2016-10-25"
@@ -112,7 +100,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 9,
+        "id": 8,
         "issue_id": "28208",
         "repo_name": "cpython",
         "start": "2016-10-31"
@@ -124,7 +112,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 10,
+        "id": 9,
         "issue_id": "28248",
         "repo_name": "cpython",
         "start": "2016-10-31"
@@ -136,7 +124,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 11,
+        "id": 10,
         "issue_id": "26980",
         "repo_name": "cpython",
         "start": "2016-11-03"
@@ -148,7 +136,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 12,
+        "id": 11,
         "issue_id": "28088",
         "repo_name": "cpython",
         "start": "2016-11-04"
@@ -158,7 +146,7 @@ var contrib_data = [
         "committer": "gvanrossum",
         "cpython_type": false,
         "group": 3,
-        "id": 13,
+        "id": 12,
         "issue_id": "121",
         "repo_name": "peps",
         "start": "2016-10-23"
@@ -168,7 +156,7 @@ var contrib_data = [
         "committer": "ncoghlan",
         "cpython_type": false,
         "group": 2,
-        "id": 14,
+        "id": 13,
         "issue_id": "37",
         "repo_name": "devguide",
         "start": "2016-09-20"
@@ -178,7 +166,7 @@ var contrib_data = [
         "committer": "berkerpeksag",
         "cpython_type": false,
         "group": 1,
-        "id": 15,
+        "id": 14,
         "issue_id": "1022",
         "repo_name": "pythondotorg",
         "start": "2016-09-27"
@@ -188,7 +176,7 @@ var contrib_data = [
         "committer": "berkerpeksag",
         "cpython_type": false,
         "group": 1,
-        "id": 16,
+        "id": 15,
         "issue_id": "1020",
         "repo_name": "pythondotorg",
         "start": "2016-09-27"
@@ -198,7 +186,7 @@ var contrib_data = [
         "committer": "berkerpeksag",
         "cpython_type": false,
         "group": 1,
-        "id": 17,
+        "id": 16,
         "issue_id": "1015",
         "repo_name": "pythondotorg",
         "start": "2016-09-22"
@@ -208,7 +196,7 @@ var contrib_data = [
         "committer": "berkerpeksag",
         "cpython_type": false,
         "group": 1,
-        "id": 18,
+        "id": 17,
         "issue_id": "1012",
         "repo_name": "pythondotorg",
         "start": "2016-09-16"
@@ -218,7 +206,7 @@ var contrib_data = [
         "committer": "berkerpeksag",
         "cpython_type": false,
         "group": 1,
-        "id": 19,
+        "id": 18,
         "issue_id": "1005",
         "repo_name": "pythondotorg",
         "start": "2016-09-11"
@@ -228,7 +216,7 @@ var contrib_data = [
         "committer": "berkerpeksag",
         "cpython_type": false,
         "group": 1,
-        "id": 20,
+        "id": 19,
         "issue_id": "1006",
         "repo_name": "pythondotorg",
         "start": "2016-09-11"
@@ -238,7 +226,7 @@ var contrib_data = [
         "committer": "berkerpeksag",
         "cpython_type": false,
         "group": 1,
-        "id": 21,
+        "id": 20,
         "issue_id": "990",
         "repo_name": "pythondotorg",
         "start": "2016-08-13"
@@ -250,7 +238,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 22,
+        "id": 21,
         "issue_id": "28615",
         "repo_name": "cpython",
         "start": "2016-11-11"
@@ -262,7 +250,7 @@ var contrib_data = [
         "cpython_type": true,
         "group": 0,
         "has_age": true,
-        "id": 23,
+        "id": 22,
         "issue_id": "20572",
         "repo_name": "cpython",
         "start": "2016-11-20"
