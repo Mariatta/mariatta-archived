@@ -1,7 +1,6 @@
 repo,committer,upload_date,commit_date,issue_id,commit_msg
 cpython,terryjreedy,2016-09-29,2016-09-30,28315,Change '?' to '<module>' in some doc examples. Patch by Mariatta Wijaya.
 cpython,berkerpeksag,2016-10-03,2016-10-04,28348,Fix typo in asyncio.Task() documentation. Patch by Mariatta Wijaya.
-cpython,gvanrossum,2016-10-05,2016-10-13,24452,Make webbrowser support Chrome on Mac OS X.
 cpython,gvanrossum,2016-10-06,2016-10-13,21443,Show how to change log level for asyncio.
 cpython,gvanrossum,2016-10-04,2016-10-13,26869,Document unittest.TestCase.longMessage. (Mariatta)
 cpython,gvanrossum,2016-10-06,2016-10-13,18789,Update XML vulnerability table to use Safe/Vulnerable instead of No/Yes.
