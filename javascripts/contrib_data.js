@@ -254,5 +254,17 @@ var contrib_data = [
         "issue_id": "28615",
         "repo_name": "cpython",
         "start": "2016-11-11"
+    },
+    {
+        "age": "2 days",
+        "commit_msg": "The subprocess.Popen.wait method's undocumented endtime parameter now raises a DeprecationWarning. It was deprecated in 3.4. It was never documented prior to that.",
+        "committer": "gpshead",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 23,
+        "issue_id": "20572",
+        "repo_name": "cpython",
+        "start": "2016-11-20"
     }
 ];
