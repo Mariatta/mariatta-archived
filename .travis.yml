@@ -3,7 +3,7 @@ language: python
 python:
   - "nightly"
 
-script: pytest
+script: pytest test.py
 
 deploy:
   provider: script
