@@ -22,3 +22,5 @@ pythondotorg,berkerpeksag,2016-09-11,2016-09-11,1006,Redirect /blog/ to /blogs/
 pythondotorg,berkerpeksag,2016-08-13,2016-08-13,990,add sqlparse<0.2
 cpython,terryjreedy,2016-11-09,2016-11-11,28615,Backport imaginary/complex number text from 3.x. Patch by Mariatta Wijaya.
 cpython,gpshead,2016-11-18,2016-11-20,20572,The subprocess.Popen.wait method's undocumented endtime parameter now raises a DeprecationWarning. It was deprecated in 3.4. It was never documented prior to that.
+cpython,rhettinger,2016-11-02,2016-11-21,28587,list.index documentation missing start and stop arguments. (Contributed by Mariatta Wijaya.)
+cpython,rhettinger,2016-10-05,2016-11-21,27825,Improve for statistics data arguments. (Contributed by Mariatta Wijaya.)

@@ -254,5 +254,29 @@ var contrib_data = [
         "issue_id": "20572",
         "repo_name": "cpython",
         "start": "2016-11-20"
+    },
+    {
+        "age": "19 days",
+        "commit_msg": "list.index documentation missing start and stop arguments. (Contributed by Mariatta Wijaya.)",
+        "committer": "rhettinger",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 23,
+        "issue_id": "28587",
+        "repo_name": "cpython",
+        "start": "2016-11-21"
+    },
+    {
+        "age": "47 days",
+        "commit_msg": "Improve for statistics data arguments. (Contributed by Mariatta Wijaya.)",
+        "committer": "rhettinger",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 24,
+        "issue_id": "27825",
+        "repo_name": "cpython",
+        "start": "2016-11-21"
     }
 ];
