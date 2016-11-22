@@ -3,6 +3,8 @@ language: python
 python:
   - "nightly"
 
+script: pytest
+
 deploy:
   provider: script
   script: ./parse_csv.py
