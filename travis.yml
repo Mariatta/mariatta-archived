@@ -1,0 +1,10 @@
+language: python
+
+python:
+  - "nightly"
+
+deploy:
+  provider: script
+  script: ./parse_csv.py
+  on:
+    branch: master
