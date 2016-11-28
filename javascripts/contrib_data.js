@@ -278,5 +278,29 @@ var contrib_data = [
         "issue_id": "27825",
         "repo_name": "cpython",
         "start": "2016-11-21"
+    },
+    {
+        "age": "2 days",
+        "commit_msg": "Restify PEP 3145",
+        "committer": "berkerpeksag",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 25,
+        "issue_id": "143",
+        "repo_name": "peps",
+        "start": "2016-11-28"
+    },
+    {
+        "age": "2 days",
+        "commit_msg": "Restify PEP 303",
+        "committer": "berkerpeksag",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 26,
+        "issue_id": "142",
+        "repo_name": "peps",
+        "start": "2016-11-28"
     }
 ];
