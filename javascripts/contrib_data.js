@@ -314,5 +314,15 @@ var contrib_data = [
         "issue_id": "144",
         "repo_name": "peps",
         "start": "2016-11-29"
+    },
+    {
+        "commit_msg": "restify PEP 349",
+        "committer": "brettcannon",
+        "cpython_type": false,
+        "group": 3,
+        "id": 28,
+        "issue_id": "148",
+        "repo_name": "peps",
+        "start": "2016-12-03"
     }
 ];
