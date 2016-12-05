@@ -324,5 +324,15 @@ var contrib_data = [
         "issue_id": "148",
         "repo_name": "peps",
         "start": "2016-12-03"
+    },
+    {
+        "commit_msg": "Fix typos in PEP 524 and PEP 529",
+        "committer": "Rosuav",
+        "cpython_type": false,
+        "group": 3,
+        "id": 29,
+        "issue_id": "150",
+        "repo_name": "peps",
+        "start": "2016-12-04"
     }
 ];
