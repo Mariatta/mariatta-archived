@@ -9,6 +9,7 @@ group_map = {
     'pythondotorg': 1,
     'peps': 3,
     'devguide': 2,
+    'planet': 4
 }
 
 

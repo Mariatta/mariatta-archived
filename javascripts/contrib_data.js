@@ -334,5 +334,15 @@ var contrib_data = [
         "issue_id": "150",
         "repo_name": "peps",
         "start": "2016-12-04"
+    },
+    {
+        "commit_msg": "Typo in readme.txt",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 4,
+        "id": 30,
+        "issue_id": "182",
+        "repo_name": "planet",
+        "start": "2016-12-05"
     }
 ];
