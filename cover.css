@@ -413,6 +413,9 @@ body {
 .label-devguide, .timeline-badge.devguide  {
     background-color: #f0ad4e;
 }
+.label-planet, .timeline-badge.planet  {
+    background-color: #0016FF;
+}
 .timeline-badge.neutral{
     background-color: #999999;
 }
