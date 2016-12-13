@@ -344,5 +344,17 @@ var contrib_data = [
         "issue_id": "182",
         "repo_name": "planet",
         "start": "2016-12-05"
+    },
+    {
+        "age": "7 days",
+        "commit_msg": "Document TCP_NODELAY in asyncio. Initial patch by Mariatta Wijaya.",
+        "committer": "Mariatta",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 31,
+        "issue_id": "28089",
+        "repo_name": "cpython",
+        "start": "2016-12-12"
     }
 ];
