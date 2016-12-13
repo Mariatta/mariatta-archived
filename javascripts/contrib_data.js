@@ -348,7 +348,7 @@ var contrib_data = [
     {
         "age": "7 days",
         "commit_msg": "Document TCP_NODELAY in asyncio. Initial patch by Mariatta Wijaya.",
-        "committer": "Mariatta",
+        "committer": "1st1",
         "cpython_type": true,
         "group": 0,
         "has_age": true,
@@ -356,5 +356,15 @@ var contrib_data = [
         "issue_id": "28089",
         "repo_name": "cpython",
         "start": "2016-12-12"
+    },
+    {
+        "commit_msg": "Add feed for Janusworx",
+        "committer": "tseaver",
+        "cpython_type": false,
+        "group": 4,
+        "id": 32,
+        "issue_id": "184",
+        "repo_name": "planet",
+        "start": "2016-12-13"
     }
 ];
