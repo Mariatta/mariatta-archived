@@ -366,5 +366,15 @@ var contrib_data = [
         "issue_id": "184",
         "repo_name": "planet",
         "start": "2016-12-13"
+    },
+    {
+        "commit_msg": "Advise using the latest stable version of Sphinx",
+        "committer": "berkerpeksag",
+        "cpython_type": false,
+        "group": 2,
+        "id": 33,
+        "issue_id": "86",
+        "repo_name": "devguide",
+        "start": "2016-12-13"
     }
 ];
