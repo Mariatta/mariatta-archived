@@ -376,5 +376,15 @@ var contrib_data = [
         "issue_id": "86",
         "repo_name": "devguide",
         "start": "2016-12-13"
+    },
+    {
+        "commit_msg": "Installation docs: Mention Elasticsearch",
+        "committer": "berkerpeksag",
+        "cpython_type": false,
+        "group": 1,
+        "id": 34,
+        "issue_id": "1040",
+        "repo_name": "pythondotorg",
+        "start": "2016-12-15"
     }
 ];
