@@ -1,2 +1,2 @@
-# mariatta
-Trying out github pages :)
+http://mariatta.github.com/mariatta
+
