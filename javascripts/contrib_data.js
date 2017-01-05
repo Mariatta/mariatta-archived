@@ -386,5 +386,37 @@ var contrib_data = [
         "issue_id": "1040",
         "repo_name": "pythondotorg",
         "start": "2016-12-15"
+    },
+    {
+        "age": "2 days",
+        "commit_msg": "Remove FAQ",
+        "committer": "brettcannon",
+        "cpython_type": false,
+        "group": 2,
+        "has_age": true,
+        "id": 35,
+        "issue_id": "37",
+        "repo_name": "devguide",
+        "start": "2017-01-04"
+    },
+    {
+        "commit_msg": "Update outdated links in PEP 3107 with archived pages",
+        "committer": "brettcannon",
+        "cpython_type": false,
+        "group": 3,
+        "id": 36,
+        "issue_id": "169",
+        "repo_name": "peps",
+        "start": "2017-01-01"
+    },
+    {
+        "commit_msg": "Fix broken url in PEP 3107",
+        "committer": "Rosuav",
+        "cpython_type": false,
+        "group": 3,
+        "id": 37,
+        "issue_id": "170",
+        "repo_name": "peps",
+        "start": "2017-01-01"
     }
 ];

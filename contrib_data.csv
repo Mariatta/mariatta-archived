@@ -34,3 +34,6 @@ cpython,1st1,2016-12-05,2016-12-12,28089,Document TCP_NODELAY in asyncio. Initia
 planet,tseaver,2016-12-13,2016-12-13,184,Add feed for Janusworx
 devguide,berkerpeksag,2016-12-13,2016-12-13,86,Advise using the latest stable version of Sphinx
 pythondotorg,berkerpeksag,2016-12-15,2016-12-15,1040,Installation docs: Mention Elasticsearch
+devguide,brettcannon,2017-01-02,2017-01-04,37,Remove FAQ
+peps,brettcannon,2017-01-01,2017-01-01,169,Update outdated links in PEP 3107 with archived pages
+peps,Rosuav,2017-01-01,2017-01-01,170,Fix broken url in PEP 3107
