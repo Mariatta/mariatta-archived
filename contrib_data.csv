@@ -37,3 +37,6 @@ pythondotorg,berkerpeksag,2016-12-15,2016-12-15,1040,Installation docs: Mention 
 devguide,brettcannon,2017-01-02,2017-01-04,37,Remove FAQ
 peps,brettcannon,2017-01-01,2017-01-01,169,Update outdated links in PEP 3107 with archived pages
 peps,Rosuav,2017-01-01,2017-01-01,170,Fix broken url in PEP 3107
+peps,brettcannon,2017-01-07,2017-01-07,174,reSTify 10 PEPs
+peps,berkerpeksag,2017-01-07,2017-01-10,175,reSTify 10 more PEPs
+peps,brettcannon,2017-01-10,2017-01-10,177,Another batch of 10 PEPs converted
