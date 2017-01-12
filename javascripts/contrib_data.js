@@ -418,5 +418,37 @@ var contrib_data = [
         "issue_id": "170",
         "repo_name": "peps",
         "start": "2017-01-01"
+    },
+    {
+        "commit_msg": "reSTify 10 PEPs",
+        "committer": "brettcannon",
+        "cpython_type": false,
+        "group": 3,
+        "id": 38,
+        "issue_id": "174",
+        "repo_name": "peps",
+        "start": "2017-01-07"
+    },
+    {
+        "age": "3 days",
+        "commit_msg": "reSTify 10 more PEPs",
+        "committer": "berkerpeksag",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 39,
+        "issue_id": "175",
+        "repo_name": "peps",
+        "start": "2017-01-10"
+    },
+    {
+        "commit_msg": "Another batch of 10 PEPs converted",
+        "committer": "brettcannon",
+        "cpython_type": false,
+        "group": 3,
+        "id": 40,
+        "issue_id": "177",
+        "repo_name": "peps",
+        "start": "2017-01-10"
     }
 ];
