@@ -40,3 +40,5 @@ peps,Rosuav,2017-01-01,2017-01-01,170,Fix broken url in PEP 3107
 peps,brettcannon,2017-01-07,2017-01-07,174,reSTify 10 PEPs
 peps,berkerpeksag,2017-01-07,2017-01-10,175,reSTify 10 more PEPs
 peps,brettcannon,2017-01-10,2017-01-10,177,Another batch of 10 PEPs converted
+peps,brettcannon,2017-01-13,2017-01-19,180,Convert 10 PEPs to reSt
+peps,brettcannon,2017-01-18,2017-01-19,184,Remove extra backticks

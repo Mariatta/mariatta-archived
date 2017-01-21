@@ -450,5 +450,29 @@ var contrib_data = [
         "issue_id": "177",
         "repo_name": "peps",
         "start": "2017-01-10"
+    },
+    {
+        "age": "6 days",
+        "commit_msg": "Convert 10 PEPs to reSt",
+        "committer": "brettcannon",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 41,
+        "issue_id": "180",
+        "repo_name": "peps",
+        "start": "2017-01-19"
+    },
+    {
+        "age": "1 day",
+        "commit_msg": "Remove extra backticks",
+        "committer": "brettcannon",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 42,
+        "issue_id": "184",
+        "repo_name": "peps",
+        "start": "2017-01-19"
     }
 ];
