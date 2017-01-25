@@ -474,5 +474,17 @@ var contrib_data = [
         "issue_id": "184",
         "repo_name": "peps",
         "start": "2017-01-19"
+    },
+    {
+        "age": "132 days",
+        "commit_msg": "Point to Wiki for Editors and Python IDEs on Unix. Patch contributed by Mariatta Wijaya.",
+        "committer": "orshentil",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 43,
+        "issue_id": "26149",
+        "repo_name": "cpython",
+        "start": "2017-01-25"
     }
 ];
