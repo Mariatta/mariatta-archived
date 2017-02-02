@@ -486,5 +486,17 @@ var contrib_data = [
         "issue_id": "26149",
         "repo_name": "cpython",
         "start": "2017-01-25"
+    },
+    {
+        "age": "3 days",
+        "commit_msg": "Clarify ordering of UNIX shebang line as source encoding line",
+        "committer": "Mariatta",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 44,
+        "issue_id": "29381",
+        "repo_name": "cpython",
+        "start": "2017-02-01"
     }
 ];
