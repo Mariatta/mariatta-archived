@@ -498,5 +498,87 @@ var contrib_data = [
         "issue_id": "29381",
         "repo_name": "cpython",
         "start": "2017-02-01"
+    },
+    {
+        "age": "2 days",
+        "commit_msg": "Convert 12 PEPs",
+        "committer": "brettcannon",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 45,
+        "issue_id": "187",
+        "repo_name": "peps",
+        "start": "2017-01-24"
+    },
+    {
+        "age": "5 days",
+        "commit_msg": "Convert PEP 263 to reST",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 46,
+        "issue_id": "191",
+        "repo_name": "peps",
+        "start": "2017-02-02"
+    },
+    {
+        "age": "1 day",
+        "commit_msg": "Convert 10 text PEPs to reST format",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 47,
+        "issue_id": "196",
+        "repo_name": "peps",
+        "start": "2017-02-02"
+    },
+    {
+        "commit_msg": "Fixes to PEP 263 and PEP 272",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 3,
+        "id": 48,
+        "issue_id": "198",
+        "repo_name": "peps",
+        "start": "2017-02-02"
+    },
+    {
+        "age": "2 days",
+        "commit_msg": "Convert PEPs 213",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 49,
+        "issue_id": "199",
+        "repo_name": "peps",
+        "start": "2017-02-06"
+    },
+    {
+        "age": "1 day",
+        "commit_msg": "Clarify bitwise OR operation in doctest option flags.",
+        "committer": "Mariatta",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 50,
+        "issue_id": "29371",
+        "repo_name": "cpython",
+        "start": "2017-02-06"
+    },
+    {
+        "age": "17 days",
+        "commit_msg": "Set the stacklevel to two in asyncio.async() Deprecation Warning",
+        "committer": "Mariatta",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 51,
+        "issue_id": "29314",
+        "repo_name": "cpython",
+        "start": "2017-02-06"
     }
 ];
