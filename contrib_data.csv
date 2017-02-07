@@ -44,3 +44,10 @@ peps,brettcannon,2017-01-13,2017-01-19,180,Convert 10 PEPs to reSt
 peps,brettcannon,2017-01-18,2017-01-19,184,Remove extra backticks
 cpython,orshentil,2016-09-15,2017-01-25,26149,Point to Wiki for Editors and Python IDEs on Unix. Patch contributed by Mariatta Wijaya.
 cpython,Mariatta,2017-01-29,2017-02-01,29381,Clarify ordering of UNIX shebang line as source encoding line
+peps,brettcannon,2017-01-22,2017-01-24,187,Convert 12 PEPs
+peps,Mariatta,2017-01-28,2017-02-02,191,Convert PEP 263 to reST
+peps,Mariatta,2017-02-01,2017-02-02,196,Convert 10 text PEPs to reST format
+peps,Mariatta,2017-02-02,2017-02-02,198,Fixes to PEP 263 and PEP 272
+peps,Mariatta,2017-02-04,2017-02-06,199,Convert PEPs 213, 241, 291, 298, 311
+cpython,Mariatta,2017-02-05,2017-02-06,29371,Clarify bitwise OR operation in doctest option flags.
+cpython,Mariatta,2017-01-20,2017-02-06,29314,Set the stacklevel to two in asyncio.async() Deprecation Warning
