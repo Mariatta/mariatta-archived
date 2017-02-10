@@ -51,3 +51,4 @@ peps,Mariatta,2017-02-02,2017-02-02,198,Fixes to PEP 263 and PEP 272
 peps,Mariatta,2017-02-04,2017-02-06,199,Convert PEPs 213, 241, 291, 298, 311
 cpython,Mariatta,2017-02-05,2017-02-06,29371,Clarify bitwise OR operation in doctest option flags.
 cpython,Mariatta,2017-01-20,2017-02-06,29314,Set the stacklevel to two in asyncio.async() Deprecation Warning
+devguide,Mariatta,2017-02-07,2017-02-07,100,committing.rst: Update git commit message example

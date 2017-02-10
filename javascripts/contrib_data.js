@@ -580,5 +580,15 @@ var contrib_data = [
         "issue_id": "29314",
         "repo_name": "cpython",
         "start": "2017-02-06"
+    },
+    {
+        "commit_msg": "committing.rst: Update git commit message example",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 2,
+        "id": 52,
+        "issue_id": "100",
+        "repo_name": "devguide",
+        "start": "2017-02-07"
     }
 ];
