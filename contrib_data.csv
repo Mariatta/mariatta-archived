@@ -52,3 +52,10 @@ peps,Mariatta,2017-02-04,2017-02-06,199,Convert PEPs 213, 241, 291, 298, 311
 cpython,Mariatta,2017-02-05,2017-02-06,29371,Clarify bitwise OR operation in doctest option flags.
 cpython,Mariatta,2017-01-20,2017-02-06,29314,Set the stacklevel to two in asyncio.async() Deprecation Warning
 devguide,Mariatta,2017-02-07,2017-02-07,100,committing.rst: Update git commit message example
+cpython,Mariatta,2017-02-11,2017-02-12,28929,Link the documentation to its source file on GitHub
+cpython,Mariatta,2017-02-10,2017-02-11,29474,Improve documentation for weakref.WeakValueDictionary
+devguide,Mariatta,2017-02-13,2017-02-13,113,README.rst: fix devguide URL
+devguide,Mariatta,2017-02-12,2017-02-12,111,README.rst: Remove GitHub work section
+devguide,ncoghlan,2017-02-11,2017-02-12,109,Clarify bpo Issue creation and PR procedure
+peps,Mariatta,2017-02-09,2017-02-10,204,Convert PEPs 261, 267, 325, 358, 361
+peps,Mariatta,2017-02-09,2017-02-09,203,Convert PEPs 222, 224, 281, 284, 310

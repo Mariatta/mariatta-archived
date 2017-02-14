@@ -590,5 +590,83 @@ var contrib_data = [
         "issue_id": "100",
         "repo_name": "devguide",
         "start": "2017-02-07"
+    },
+    {
+        "age": "1 day",
+        "commit_msg": "Link the documentation to its source file on GitHub",
+        "committer": "Mariatta",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 53,
+        "issue_id": "28929",
+        "repo_name": "cpython",
+        "start": "2017-02-12"
+    },
+    {
+        "age": "1 day",
+        "commit_msg": "Improve documentation for weakref.WeakValueDictionary",
+        "committer": "Mariatta",
+        "cpython_type": true,
+        "group": 0,
+        "has_age": true,
+        "id": 54,
+        "issue_id": "29474",
+        "repo_name": "cpython",
+        "start": "2017-02-11"
+    },
+    {
+        "commit_msg": "README.rst: fix devguide URL",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 2,
+        "id": 55,
+        "issue_id": "113",
+        "repo_name": "devguide",
+        "start": "2017-02-13"
+    },
+    {
+        "commit_msg": "README.rst: Remove GitHub work section",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 2,
+        "id": 56,
+        "issue_id": "111",
+        "repo_name": "devguide",
+        "start": "2017-02-12"
+    },
+    {
+        "age": "1 day",
+        "commit_msg": "Clarify bpo Issue creation and PR procedure",
+        "committer": "ncoghlan",
+        "cpython_type": false,
+        "group": 2,
+        "has_age": true,
+        "id": 57,
+        "issue_id": "109",
+        "repo_name": "devguide",
+        "start": "2017-02-12"
+    },
+    {
+        "age": "1 day",
+        "commit_msg": "Convert PEPs 261",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 3,
+        "has_age": true,
+        "id": 58,
+        "issue_id": "204",
+        "repo_name": "peps",
+        "start": "2017-02-10"
+    },
+    {
+        "commit_msg": "Convert PEPs 222",
+        "committer": "Mariatta",
+        "cpython_type": false,
+        "group": 3,
+        "id": 59,
+        "issue_id": "203",
+        "repo_name": "peps",
+        "start": "2017-02-09"
     }
 ];
