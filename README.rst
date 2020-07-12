@@ -2,4 +2,4 @@ Hello!
 ------
 
 
-:wave:
+`Sponsor Mariatta <https://github.com/sponsors/Mariatta`>_ on GitHub.
